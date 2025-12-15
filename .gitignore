@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+
+# Data
+data/raw/
+data/processed/*.csv
+
+# Model artifacts
+model_artifacts/
+*.pkl
+
+# VSCode / Jupyter
+.vscode/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
