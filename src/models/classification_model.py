@@ -1,14 +1,3 @@
-"""
-src/models/classification_model.py
-
-Train a classification model to predict `converted` (0/1) using session-level features.
-
-Expectations:
-- Input CSV: data/processed/train_final_with_features.csv  (click-level rows with session features merged)
-- We will build a session-level dataset by taking one row per session (last click row per session is fine)
-- Save model artifact to model_artifacts/classification.pkl
-"""
-
 import pandas as pd
 import numpy as np
 from pathlib import Path
